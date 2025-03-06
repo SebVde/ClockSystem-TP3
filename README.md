@@ -1,6 +1,7 @@
 Code quality: 
 ![Java CI with Gradle](https://github.com/SebVde/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
 ![Code Scanning Alerts with PMD](https://github.com/SebVde/ClockSystem-TP3/actions/workflows/pmd.yml/badge.svg)
+![CodeQL Analyze](https://github.com/SebVde/ClockSystem-TP3/actions/workflows/codeql.yml/badge.svg)
 
 # ClockSystem
 
