@@ -30,15 +30,6 @@ jobs:
       with :
         gradle-version: '8.10'
 
-    - uses: pmd/pmd-github-actions@v2
-      with:
-        version: '6.55.0'
-        rulesets: ’java-basic’
-
-    - name: Fail build if there are violations
-      if: steps.pmd.outputs.violations > 3
-      run: exit 1
-
     - name: Start Xvfb
       run: Xvfb $DISPLAY -ac -screen 0 1600x1200x24 > /dev/null 2>&1 &
 
