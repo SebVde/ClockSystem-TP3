@@ -1,4 +1,5 @@
-Code quality: ![Java CI with Gradle] (https://github.com/SebVde/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
+Code quality: 
+![Java CI with Gradle] (https://github.com/SebVde/ClockSystem-TP3/actions/workflows/gradle.yml/badge.svg)
 
 # ClockSystem
 
